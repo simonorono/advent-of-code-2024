@@ -8,7 +8,9 @@ type Day interface {
 }
 
 func main() {
-	days := []Day{}
+	days := []Day{
+		Day1{},
+	}
 
 	for idx, day := range days {
 		fmt.Println("Day", idx+1)
