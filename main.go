@@ -9,7 +9,7 @@ type Day interface {
 
 func main() {
 	days := []Day{
-		Day1{},
+		NewDay1(),
 	}
 
 	for idx, day := range days {
