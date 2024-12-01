@@ -12,3 +12,9 @@ To run the solutions:
 go build
 ./advent-of-code-2024
 ```
+
+To run an specific day:
+
+```bash
+./advent-of-code-2024 -day <day>
+```
