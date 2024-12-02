@@ -38,12 +38,9 @@ func NewDay1() Day1 {
 }
 
 func (day Day1) part1() interface{} {
-	lines := strings.Split(strings.TrimSpace(Day1Input), "\n")
-	count := len(lines)
-
 	result := 0
 
-	for i := 0; i < count; i++ {
+	for i := 0; i < len(day.list1); i++ {
 		diff := day.list1[i] - day.list2[i]
 
 		if diff < 0 {
