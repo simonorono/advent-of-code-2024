@@ -23,6 +23,7 @@ func main() {
 
 	days := []Day{
 		NewDay1(),
+		NewDay2(),
 	}
 
 	if *specificDay > 0 && *specificDay > uint(len(days)) {
