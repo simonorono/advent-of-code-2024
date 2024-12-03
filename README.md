@@ -13,7 +13,7 @@ go build
 ./advent-of-code-2024
 ```
 
-To run an specific day:
+To run a specific day:
 
 ```bash
 ./advent-of-code-2024 -day <day>
